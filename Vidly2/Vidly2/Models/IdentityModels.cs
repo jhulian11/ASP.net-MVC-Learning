@@ -21,7 +21,11 @@ namespace Vidly2.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<Customer> Customers { get; set; }          
+        public DbSet<Customer> Customers { get; set; } 
+        public DbSet<MembershipType> MembershipTypes { get; set; } 
+        public DbSet<Movie> Movies { get; set; } 
+        public DbSet<Genre> Genres { get; set; } 
+        
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
@@ -36,6 +40,8 @@ namespace Vidly2.Models
         {
             modelBuilder.Configurations.Add(new CustomerConfiguration());
             modelBuilder.Configurations.Add(new MembershipTypeConfiguration());
+            modelBuilder.Configurations.Add(new MovieConfiguration());
+            modelBuilder.Configurations.Add(new GenreConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }

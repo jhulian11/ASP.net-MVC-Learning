@@ -137,3 +137,8 @@ C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidl
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddBirthdayToCustomers.resources
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddBirthdayToJohnSmith.resources
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.ChangeCustomerId3Name.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.CreatingGenreAndMovieTablesAndRelashionship.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.GenreAndMovieTablesFluentAPINameAdjust.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddAditionalColumnsOnMovieTable.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.SeedGenreTable.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.MovieTablesDatesAreRequired.resources
