@@ -129,3 +129,11 @@ C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidl
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddMembershipType.resources
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.PopulateMembershipTypes.resources
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.ApplyFluentAPIToCustomerName.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddNameToMemberships.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.UpdateMembershipWithNames.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.UpdateMembershipWithNames1.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.FixingCustomersNames.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddMaxLenghtToMemberShipName.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddBirthdayToCustomers.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddBirthdayToJohnSmith.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.ChangeCustomerId3Name.resources

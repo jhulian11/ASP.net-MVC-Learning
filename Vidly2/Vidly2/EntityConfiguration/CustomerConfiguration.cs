@@ -15,6 +15,9 @@ namespace Vidly2.EntityConfiguration
                 .IsRequired()
                 .HasMaxLength(255);
 
+            Property(c => c.Birthday)
+                .IsOptional();
+
         }
     }
 }

@@ -35,6 +35,7 @@ namespace Vidly2.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new CustomerConfiguration());
+            modelBuilder.Configurations.Add(new MembershipTypeConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }

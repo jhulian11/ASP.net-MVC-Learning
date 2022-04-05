@@ -173,6 +173,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="EntityConfiguration\CustomerConfiguration.cs" />
+    <Compile Include="EntityConfiguration\MembershipTypeConfiguration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -195,6 +196,38 @@
     <Compile Include="Migrations\202204051312334_ApplyFluentAPIToCustomerName.cs" />
     <Compile Include="Migrations\202204051312334_ApplyFluentAPIToCustomerName.Designer.cs">
       <DependentUpon>202204051312334_ApplyFluentAPIToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051353023_AddNameToMemberships.cs" />
+    <Compile Include="Migrations\202204051353023_AddNameToMemberships.Designer.cs">
+      <DependentUpon>202204051353023_AddNameToMemberships.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051359014_UpdateMembershipWithNames.cs" />
+    <Compile Include="Migrations\202204051359014_UpdateMembershipWithNames.Designer.cs">
+      <DependentUpon>202204051359014_UpdateMembershipWithNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051406475_UpdateMembershipWithNames1.cs" />
+    <Compile Include="Migrations\202204051406475_UpdateMembershipWithNames1.Designer.cs">
+      <DependentUpon>202204051406475_UpdateMembershipWithNames1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051407547_FixingCustomersNames.cs" />
+    <Compile Include="Migrations\202204051407547_FixingCustomersNames.Designer.cs">
+      <DependentUpon>202204051407547_FixingCustomersNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051419148_AddMaxLenghtToMemberShipName.cs" />
+    <Compile Include="Migrations\202204051419148_AddMaxLenghtToMemberShipName.Designer.cs">
+      <DependentUpon>202204051419148_AddMaxLenghtToMemberShipName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051421397_AddBirthdayToCustomers.cs" />
+    <Compile Include="Migrations\202204051421397_AddBirthdayToCustomers.Designer.cs">
+      <DependentUpon>202204051421397_AddBirthdayToCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051424039_AddBirthdayToJohnSmith.cs" />
+    <Compile Include="Migrations\202204051424039_AddBirthdayToJohnSmith.Designer.cs">
+      <DependentUpon>202204051424039_AddBirthdayToJohnSmith.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204051437076_ChangeCustomerId3Name.cs" />
+    <Compile Include="Migrations\202204051437076_ChangeCustomerId3Name.Designer.cs">
+      <DependentUpon>202204051437076_ChangeCustomerId3Name.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -301,6 +334,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202204051312334_ApplyFluentAPIToCustomerName.resx">
       <DependentUpon>202204051312334_ApplyFluentAPIToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051353023_AddNameToMemberships.resx">
+      <DependentUpon>202204051353023_AddNameToMemberships.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051359014_UpdateMembershipWithNames.resx">
+      <DependentUpon>202204051359014_UpdateMembershipWithNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051406475_UpdateMembershipWithNames1.resx">
+      <DependentUpon>202204051406475_UpdateMembershipWithNames1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051407547_FixingCustomersNames.resx">
+      <DependentUpon>202204051407547_FixingCustomersNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051419148_AddMaxLenghtToMemberShipName.resx">
+      <DependentUpon>202204051419148_AddMaxLenghtToMemberShipName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051421397_AddBirthdayToCustomers.resx">
+      <DependentUpon>202204051421397_AddBirthdayToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051424039_AddBirthdayToJohnSmith.resx">
+      <DependentUpon>202204051424039_AddBirthdayToJohnSmith.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204051437076_ChangeCustomerId3Name.resx">
+      <DependentUpon>202204051437076_ChangeCustomerId3Name.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
