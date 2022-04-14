@@ -25,12 +25,8 @@ namespace Vidly2.Controllers
         }
         public ActionResult Random()
         {
-            var movie = GetMovies().SingleOrDefault(c => c.Name.Equals("Shrek"));
-            var customers = new List<Customer>
-            {
-                new Customer(){Name = "Junior"},
-                new Customer(){Name = "Ronaldo"}
-            };
+            var movie = _context.Movies.SingleOrDefault(m => m.Id.Equals(1));
+            var customers = _context.Customers.ToList();
 
             var viewModel = new RandomMovieViewModel()
             {
@@ -53,17 +49,68 @@ namespace Vidly2.Controllers
             return View(movie);
         }
 
-        public IEnumerable<Movie> GetMovies()
+        public ActionResult NewMovie()
         {
-            return new List<Movie>()
+            var genres = _context.Genres.ToList();
+            var viewModel = new NewMovieViewModel
             {
-                new Movie(){Name = "Shrek"},
-                new Movie(){Name = "Vikings"},
-                new Movie(){Name = "Lord of the Rings"}
-
+                Genres = genres
             };
+            return View("MovieForm", viewModel);
         }
 
+        public ActionResult EditMovie(int id)
+        {
+            var genres = _context.Genres.ToList();
+            var movie = _context.Movies.SingleOrDefault(m => m.Id.Equals(id));
+
+            if (movie == null)
+                return HttpNotFound();
+
+            var viewModel = new NewMovieViewModel
+            {
+                Genres = genres,
+                Movie = movie
+            };
+            return View("MovieForm", viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Save(Movie movie)
+        {
+            if (movie.Id == 0)
+            {
+                movie.DateAdd = DateTime.Now;
+
+                _context.Movies.Add(movie);
+            }
+            else
+            {
+                var movieInDb = _context.Movies.Single(c => c.Id.Equals(movie.Id));
+
+                //Mapper.Map(customer,customerInDb);
+
+                movieInDb.Name = movie.Name;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.GenreId = movie.GenreId;
+                movieInDb.Stock = movie.Stock;
+            }
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Movies");
+        }
+
+        //public ienumerable<movie> getmovies()
+        //{
+        //    return new list<movie>()
+        //    {
+        //        new movie(){name = "shrek"},
+        //        new movie(){name = "vikings"},
+        //        new movie(){name = "lord of the rings"}
+
+        //    };
+        //}
 
     }
 }
