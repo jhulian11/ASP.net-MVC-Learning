@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.InteropServices;
 
 namespace Vidly2.Models
 {
@@ -11,9 +12,12 @@ namespace Vidly2.Models
         public int Id { get; set; }
       
         [Required]
+        [StringLength(255)]
         public string Name { get; set; }
 
         [Display(Name = "Date of Birth")]
+
+        [Min18YearsOldIfMember]
         public DateTime? Birthday { get; set; }
 
         public bool IsSubscribedToNewsLetter { get; set; }
