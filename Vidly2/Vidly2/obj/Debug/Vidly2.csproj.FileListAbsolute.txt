@@ -143,3 +143,11 @@ C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidl
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.SeedGenreTable.resources
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.MovieTablesDatesAreRequired.resources
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.CustomerConfigurationNameMxLenght200.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\System.Net.Http.Formatting.dll
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\System.Web.Http.dll
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\System.Web.Http.WebHost.dll
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\System.Net.Http.Formatting.xml
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\System.Web.Http.xml
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\System.Web.Http.WebHost.xml
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\AutoMapper.dll
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\AutoMapper.xml
