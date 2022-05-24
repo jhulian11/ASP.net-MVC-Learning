@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Data.Entity;
 using System.Net.Http;
 using System.Web.Http;
 using AutoMapper;
@@ -24,7 +25,7 @@ namespace Vidly2.Controllers.API
         [HttpGet]
         public IEnumerable<MovieDto> GetMovies()
         {
-            return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
+            return _context.Movies.Include(m => m.Genre).ToList().Select(Mapper.Map<Movie, MovieDto>);
         }
 
         //GET /api/movies/1
@@ -32,7 +33,7 @@ namespace Vidly2.Controllers.API
         [HttpGet]
         public MovieDto GetMovie(int id)
         {
-            var movie = _context.Movies.SingleOrDefault(m => m.Id.Equals(id));
+            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id.Equals(id));
 
             if (movie == null)
                 throw new HttpResponseException(HttpStatusCode.NotFound);

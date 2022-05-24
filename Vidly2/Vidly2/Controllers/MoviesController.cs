@@ -39,8 +39,8 @@ namespace Vidly2.Controllers
 
         public ViewResult Index()
         {
-            var movies = _context.Movies.Include(m => m.Genre).ToList();
-            return View(movies);
+            //var movies = _context.Movies.Include(m => m.Genre).ToList();
+            return View(/*movies*/);
         }
 
         public ActionResult Details(int id)
@@ -59,7 +59,7 @@ namespace Vidly2.Controllers
             return View("MovieForm", viewModel);
         }
 
-        public ActionResult EditMovie(int id)
+        public ActionResult Edit(int id)
         {
             var genres = _context.Genres.ToList();
             var movie = _context.Movies.SingleOrDefault(m => m.Id.Equals(id));
