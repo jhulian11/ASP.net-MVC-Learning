@@ -159,3 +159,9 @@ C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidl
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\Glimpse.Core.dll
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\Glimpse.EF6.dll
 C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\Glimpse.Mvc5.dll
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.CreateRentalModel.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.UpdateRentalModel.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddPropertyAvailableInStockToMovieModel.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.FulfillStockAvailableWithStock.resources
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\jhuli\Downloads\UniceSumar\C# Curso Udemy\ASP.net MVC\First\Vidly2\Vidly2\bin\pt-br\System.Web.Http.WebHost.resources.dll
