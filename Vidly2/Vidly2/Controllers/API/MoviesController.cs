@@ -26,6 +26,7 @@ namespace Vidly2.Controllers.API
         public IHttpActionResult GetMovies(string query = null)
         {
             var moviesQuery = _context.Movies.Include(m => m.Genre).Where(m => m.AvailableStock > 0);
+            
 
             //foreach (var movie in moviesQuery)
             //{
